@@ -1,0 +1,38 @@
+{
+  "params": {
+    "grow_policy": "lossguide",
+    "max_depth": 0,
+    "max_leaves": 31,
+    "min_child_weight": 2,
+    "subsample": 0.7,
+    "colsample_bytree": 0.6,
+    "colsample_bylevel": 0.9,
+    "colsample_bynode": 1.0,
+    "gamma": 0.5,
+    "reg_alpha": 0.01,
+    "reg_lambda": 0.5,
+    "learning_rate": 0.03,
+    "max_bin": 256
+  },
+  "meta": {
+    "created_at": "20250828_173209",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "python": "3.11.3",
+    "xgboost_version": "3.0.4",
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "seed": 42,
+    "best_iter": 4150,
+    "val_metrics": {
+      "R2": 0.5729,
+      "RMSE": 1875.21,
+      "MAE": 1139.19
+    },
+    "test_metrics": {
+      "R2": 0.565,
+      "RMSE": 1883.9,
+      "MAE": 1135.75
+    },
+    "n_features": 341
+  }
+}
