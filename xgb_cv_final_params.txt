@@ -1,0 +1,2 @@
+best_rounds=4602
+params={'objective': 'reg:absoluteerror', 'eval_metric': 'mae', 'tree_method': 'hist', 'grow_policy': 'lossguide', 'max_depth': 0, 'max_leaves': 31, 'min_child_weight': 2, 'subsample': 0.7, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.9, 'colsample_bynode': 1.0, 'gamma': 0.5, 'alpha': 0.01, 'lambda': 0.5, 'eta': 0.03, 'max_bin': 256, 'seed': 42}
